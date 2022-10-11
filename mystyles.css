@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title> 
+    <style>
+        body{
+            font-family:'Times New Roman', Times, serif; 
+            background-image: linear-gradient(45deg, red, orange); 
+        }
+        div{
+            background-color:rgb(0, 0, 255); 
+            position: absolute; 
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
+        }
+        input{
+             15px;
+        }
+        button{
+            background-color:darkgreen; 
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 10px;
+            color: white;
+            font-size: 15px;
+
+        }
+        button:hover{ 
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="oi">
+    <div>
+        <h1>Login</h1> 
+        <input type="text" placeholder="Nome"> 
+        <br><br>
+        <input type="password" placeholder="Senha"> 
+        <br><br>
+        <button>Enviar</button> 
+        <button>Esqueceu a senha</button> 
+        <button>Conectar-se com a Conta do Google</button> 
+        <button>Conectar-se com o Facebook</button> 
+        <button>Conectar-se com o Twitter</button> 
+    </div>
+</body>
+</html>
